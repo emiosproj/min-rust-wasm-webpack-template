@@ -1,0 +1,17 @@
+{
+  "name": "min-rust-wasm-webpack-template",
+  "version": "1.0.0",
+  "description": "Minimalist template for Rust Wasm app  using wasm-pack, webpack 5 and yarn 3",
+  "main": "index.js",
+  "author": "Artem Aleshkov emiosproj@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "myrustlib": "file:./pkg",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  },
+  "packageManager": "yarn@3.2.4"
+}
